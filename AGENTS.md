@@ -146,6 +146,10 @@ Tests must not call the real model or the real network. Mock model replies with 
 4. Never paste a real key into a prompt. If a key was pasted anywhere, revoke it at the provider and create a new one.
 5. Review every new dependency and every network call.
 
+#NOTE 
+
+ADD Strict rules in the AGENTS.MD in your claude code to ensure the safety of the API KEYS In Your .env
+
 ### Pull request checklist
 
 - [ ] Tests pass and do not use the network or the real model
