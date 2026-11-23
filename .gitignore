@@ -1,0 +1,42 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.*
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Runtime state, memory, logs
+watchdog_state.json
+digest_log.json
+*.tmp
+lessons.jsonl
+data/
+memory/
+logs/
+*.log
+*.sqlite
+*.db
+
+# Generated reports
+report_*.md
+report_*.docx
+test_report.md
+test_report.docx
+
+# Recordings and editor/OS files
+*.mp4
+*.mkv
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
