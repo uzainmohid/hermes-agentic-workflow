@@ -240,6 +240,8 @@ ResearchOS itself does not call Hermes. It is a separate Python application that
 
 Issues and pull requests are welcome. Read `AGENTS.md` first; it lists the guardrails every change must keep.
 
+## Contributing / Issues and PRs are welcome!
+
 ## License
 
 MIT. See `LICENSE`.
